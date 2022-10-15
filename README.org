@@ -6,7 +6,7 @@
 
 * GitHub username: MaxKoltovskiy
 
-* Notes:
+* Notes: The main executable works through input redirection and works with any cpp file. It will print the unindented code followed by the correctly indented code.  
 
 
   
