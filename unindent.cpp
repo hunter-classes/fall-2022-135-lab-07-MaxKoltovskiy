@@ -2,6 +2,7 @@
 #include "unindent.h"
 #include <fstream>
 
+// removes the first character if it is a space
 std::string removeLeadingSpaces(std::string line)
 {
     int index = 0;
@@ -11,6 +12,7 @@ std::string removeLeadingSpaces(std::string line)
     return line;
 }
 
+// loops the whole code until all leading spaces are removed
 std::string unindent(std::string code)
 {
     std::string result, line;

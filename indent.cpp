@@ -1,6 +1,7 @@
 #include <iostream>
 #include "indent.h"
 
+// counts how many times char c shows up in the line
 int countChar(std::string line, char c)
 {
     int count = 0;
@@ -13,6 +14,7 @@ int countChar(std::string line, char c)
     return count;
 }
 
+//for each opening curly brace, one extra indent, and each closing curly brace, one less indent
 std::string indent(std::string code)
 {
     std::string result, line;
