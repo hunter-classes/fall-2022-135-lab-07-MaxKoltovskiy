@@ -1,6 +1,10 @@
 #include <iostream>
 #include "indent.h"
 
+/* takes in a string and a character and then it loops 
+through all the characters of the string to count the 
+number of times each character of the string match the character
+*/
 int countChar(std::string line, char c)
 {
     int count = 0;
